@@ -1,0 +1,1 @@
+# esp32_wrover_kicad_open
