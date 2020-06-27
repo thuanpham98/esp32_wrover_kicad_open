@@ -1,0 +1,192 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_B_Micro J9
+U 1 1 5F0A3709
+P 1250 2450
+F 0 "J9" H 1307 2917 50  0000 C CNN
+F 1 "USB_B_Micro" H 1307 2826 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521" H 1400 2400 50  0001 C CNN
+F 3 "~" H 1400 2400 50  0001 C CNN
+	1    1250 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2450 2000 2450
+Wire Wire Line
+	2000 2550 1550 2550
+Wire Wire Line
+	1150 2850 1200 2850
+Wire Wire Line
+	1550 2250 1550 1750
+Wire Wire Line
+	1550 1600 1900 1600
+Text Notes 3400 2900 0    79   ~ 16
+USB
+NoConn ~ 1550 2650
+Wire Wire Line
+	2400 1750 2400 1600
+$Comp
+L power:+5V #PWR0146
+U 1 1 5F0A3717
+P 1550 1750
+F 0 "#PWR0146" H 1550 1600 50  0001 C CNN
+F 1 "+5V" V 1565 1878 50  0000 L CNN
+F 2 "" H 1550 1750 50  0001 C CNN
+F 3 "" H 1550 1750 50  0001 C CNN
+	1    1550 1750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1550 1750
+Wire Wire Line
+	1550 1750 1550 1600
+Wire Wire Line
+	2000 2350 1550 2350
+Wire Wire Line
+	1550 2350 1550 2250
+Connection ~ 1550 2250
+$Comp
+L power:GND #PWR0147
+U 1 1 5F0A3722
+P 2650 4350
+F 0 "#PWR0147" H 2650 4100 50  0001 C CNN
+F 1 "GND" V 2655 4222 50  0000 R CNN
+F 2 "" H 2650 4350 50  0001 C CNN
+F 3 "" H 2650 4350 50  0001 C CNN
+	1    2650 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2500 4350 2650 4350
+$Comp
+L Device:R R26
+U 1 1 5F0A3729
+P 3250 2150
+F 0 "R26" V 3043 2150 50  0000 C CNN
+F 1 "470" V 3134 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3180 2150 50  0001 C CNN
+F 3 "~" H 3250 2150 50  0001 C CNN
+	1    3250 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 5F0A372F
+P 3250 2250
+F 0 "R27" V 3043 2250 50  0000 C CNN
+F 1 "470" V 3134 2250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3180 2250 50  0001 C CNN
+F 3 "~" H 3250 2250 50  0001 C CNN
+	1    3250 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 2150 3100 2150
+Wire Wire Line
+	3000 2250 3100 2250
+$Comp
+L power:GND #PWR0150
+U 1 1 5F0A3760
+P 3200 3250
+F 0 "#PWR0150" H 3200 3000 50  0001 C CNN
+F 1 "GND" H 3205 3077 50  0000 C CNN
+F 2 "" H 3200 3250 50  0001 C CNN
+F 3 "" H 3200 3250 50  0001 C CNN
+	1    3200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 5F0A3766
+P 3200 3000
+F 0 "R25" H 3270 3046 50  0000 L CNN
+F 1 "10K" H 3270 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3130 3000 50  0001 C CNN
+F 3 "~" H 3200 3000 50  0001 C CNN
+	1    3200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5F0A376C
+P 1900 2000
+F 0 "R23" H 1970 2046 50  0000 L CNN
+F 1 "1K" H 1970 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1830 2000 50  0001 C CNN
+F 3 "~" H 1900 2000 50  0001 C CNN
+	1    1900 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3150 3200 3250
+Wire Wire Line
+	1900 2150 2000 2150
+Wire Wire Line
+	1900 1600 1900 1850
+Connection ~ 1900 1600
+Wire Wire Line
+	1900 1600 2400 1600
+NoConn ~ 2500 1750
+NoConn ~ 3000 2950
+NoConn ~ 3000 3150
+NoConn ~ 3000 3250
+NoConn ~ 3000 3350
+NoConn ~ 3000 3550
+NoConn ~ 3000 3650
+NoConn ~ 3000 3750
+NoConn ~ 3000 4050
+NoConn ~ 3000 3950
+NoConn ~ 3000 3850
+$Comp
+L power:GND #PWR0154
+U 1 1 5F0A379B
+P 1200 2850
+F 0 "#PWR0154" H 1200 2600 50  0001 C CNN
+F 1 "GND" H 1205 2677 50  0000 C CNN
+F 2 "" H 1200 2850 50  0001 C CNN
+F 3 "" H 1200 2850 50  0001 C CNN
+	1    1200 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 1200 2850
+Wire Wire Line
+	1200 2850 1250 2850
+Wire Wire Line
+	3000 2850 3200 2850
+$Comp
+L Interface_USB:CP2102N-A01-GQFN28 U?
+U 1 1 5F0A37AC
+P 2500 3050
+AR Path="/5F05F231/5F0A37AC" Ref="U?"  Part="1" 
+AR Path="/5F09F0C2/5F0A37AC" Ref="U7"  Part="1" 
+F 0 "U7" H 2500 1661 50  0000 C CNN
+F 1 "CP2102N" H 2500 1570 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm" H 2950 1850 50  0001 L CNN
+F 3 "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf" H 2550 2300 50  0001 C CNN
+	1    2500 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 2150 2    50   Input ~ 0
+HSPI_MISO
+Text GLabel 3400 2250 2    50   Input ~ 0
+HSPI_MOSI
+NoConn ~ 3000 2650
+NoConn ~ 3000 2550
+NoConn ~ 3000 2450
+NoConn ~ 3000 2350
+NoConn ~ 3000 2050
+NoConn ~ 3000 1950
+$EndSCHEMATC
