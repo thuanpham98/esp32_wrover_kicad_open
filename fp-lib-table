@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/kicad-library/footprints)(options "")(descr ""))
+  (lib (name usb_c)(type KiCad)(uri /home/thuan/Type-C.pretty)(options "")(descr ""))
+)
