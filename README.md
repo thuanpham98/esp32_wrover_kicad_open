@@ -1,5 +1,4 @@
-# Pas-timer-hw
-
+# ESP-WROVER_OPEN
 ## Hardware
 
 ### Schematic
