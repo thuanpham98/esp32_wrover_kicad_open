@@ -4,4 +4,5 @@
   (lib (name Interfaces_USB)(type Legacy)(uri ${KIPRJMOD}/kicad-library/object/Interfaces_USB.lib)(options "")(descr ""))
   (lib (name chim_con)(type Legacy)(uri ${KIPRJMOD}/kicad-library/object/chim_con.lib)(options "")(descr ""))
   (lib (name chim_con_10)(type Legacy)(uri ${KIPRJMOD}/kicad-library/object/chim_con_10.lib)(options "")(descr ""))
+  (lib (name esp_wrover_open-rescue)(type Legacy)(uri ${KIPRJMOD}/esp_wrover_open-rescue.lib)(options "")(descr ""))
 )
